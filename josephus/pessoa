@@ -1,0 +1,14 @@
+public class Pessoa {
+    String nome;
+    String telefone;
+    String endereco;
+    String cpf;
+    Pessoa proximo;
+    @Override 
+    public String toString(){
+        return "\nNome: "+this.nome +"CPF: " +this.cpf+"Endereco: "+this.endereco+"Telefone: "+this.telefone;
+
+
+    }
+
+}
