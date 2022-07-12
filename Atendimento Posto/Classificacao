@@ -1,0 +1,23 @@
+package Ed11;
+
+public class Classificacao {   //DEFININDO TIPOS
+  int id; 
+  String sexo;
+  int idade;
+  int prioridade =  0;
+  boolean gestante, lactante, necessidadeEspecial;
+  Classificacao proximo;
+
+  public Classificacao(){}  //.THIS RECEBENDO O MESMO 
+  public Classificacao(int id, String sexo, int idade, boolean gestante, boolean lactante, boolean necessidadeEspecial, int prioridade){
+      this.id = id;
+      this.sexo = sexo;
+      this.idade = idade;
+      this.gestante = gestante;
+      this.lactante = lactante;
+      this.necessidadeEspecial = necessidadeEspecial;
+      this.prioridade = prioridade;
+
+  }
+  
+}
